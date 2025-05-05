@@ -11,10 +11,28 @@ body {
     align-items: center;
     min-width: 100vw;
     min-height: 100vh;
+    background-image: url('city.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding: 0 1em 2em;
+}
+
+.form-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 50px;
 }
 
 form {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
